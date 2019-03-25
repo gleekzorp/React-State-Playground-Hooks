@@ -1,0 +1,26 @@
+body {
+  background-color: #f7faff;
+  margin: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #dee7f7;
+}
+
+.navigation-wrapper a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  color: orange;
+}
+
+.navigation-wrapper a:hover {
+  color: limegreen;
+}
